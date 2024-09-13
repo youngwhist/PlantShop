@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+button {
+  border: none;
+  background-color: #fff;
+}
+
+.header {
+  position: absolute;
+  width: 90%;
+  padding: 40px;
+  align-items: center;
+}
+.header_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.header_nav {
+  display: flex;
+  align-items: center;
+}
+.header_nav_btn {
+  padding: 8px 29.5px;
+  font-weight: 800;
+}
+.header_nav_btn_search {
+  margin-right: 60px;
+}
+
+.white {
+  color: #156963;
+}
+
+.green {
+  color: #fff;
+  background-color: #156963;
+}
+
+.main_bg {
+  max-width: 608px;
+}
+.main_wrap {
+  display: flex;
+  align-items: flex-end;
+}
+.main_items {
+  display: flex;
+  flex-direction: column;
+}
+.main_text {
+  padding: 110px 76px;
+  gap: 24px;
+}
+.main_text_title {
+  color: #156963;
+  font-size: 68px;
+  font-weight: 500;
+  max-width: 523px;
+}
+.main_text_subtitle {
+  color: #2C1500;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 423px;
+}
+.main_btns {
+  margin-left: 60px;
+}
+.main_btn {
+  padding: 50px 50px;
+  font-weight: 500;
+}
+.main_btn_subtitle {
+  display: flex;
+  justify-content: start;
+  font-size: 24px;
+  align-items: center;
+}
+.main_btn_subtitle_text_dark {
+  color: #333333;
+}
+.main_btn_subtitle_text_light {
+  color: #F2F2F2;
+}
+.main_btn_title {
+  padding-top: 12px;
+  font-size: 32px;
+}
+.main_blocks {
+  display: flex;
+  margin: 142px 56px 0 56px;
+  justify-content: space-between;
+}
+.main_block {
+  width: 268px;
+  border: 2.5px dotted #E0E0E0;
+  padding: 22px 16px;
+}
+.main_block_title {
+  display: flex;
+  font-size: 16px;
+  max-width: 268px;
+  font-weight: 700;
+  color: #156963;
+  align-items: center;
+}
+.main_block_title_text {
+  padding: 16px;
+}
+.main_block_subtitle {
+  padding-top: 16px;
+  font-size: 10px;
+  font-weight: 400;
+}
+.main_featured-plants {
+  margin: 80px 56px 0 56px;
+}
+.main_featured-plants_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_featured-plants_title_text {
+  font-size: 20px;
+  font-weight: 500;
+}
+.main_featured-plants_sort {
+  border: 1px solid #E0E0E0;
+  padding: 8px 12px;
+}
+.main_featured-plants_list {
+  display: flex;
+  padding-top: 80px;
+  justify-content: space-between;
+}
+.main_featured-plants_list_up {
+  display: flex;
+  justify-content: space-between;
+}
+.main_featured-plants_list_plants {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main_featured-plants_list_cheap {
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 36px 8px 12px;
+  border: 1px solid #E0E0E0;
+}
+.main_featured-plants_list_vector {
+  padding: 16px;
+}
+.main_featured-plants_list_flowers {
+  padding: 24px;
+}
+.main_featured-plants_list_card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 217px;
+  height: 281px;
+  align-items: center;
+  margin-right: 20px;
+}
+.main_featured-plants_list_text {
+  padding: 16px 0 0 0;
+}
+.main_featured-plants_list_price {
+  padding: 8px;
+}
+.main_more {
+  margin: 80px 56px 0 56px;
+}
+.main_more_title {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-left: 21px;
+}
+.main_more_title_text {
+  color: #2C1500;
+  font-size: 40px;
+  font-weight: 700;
+  width: 522px;
+}
+.main_more_subtitle {
+  max-width: 506px;
+}
+.main_more_text {
+  padding: 16px 0 0 0;
+  width: 506px;
+  color: #2C1500;
+  font-size: 18px;
+  font-weight: 400;
+}
+.main_more_mirror {
+  padding: 74px 0 0 0;
+  width: 568px;
+  height: 250px;
+}
+.main_more_wall {
+  display: flex;
+  justify-content: right;
+  margin-top: -495px;
+}
+.main_get {
+  margin: 80px 56px 0 56px;
+  background-color: #F3F4F6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_get_title {
+  background: url("../img/bg-get.jpg") no-repeat center center/cover;
+  width: 1168px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.main_get_title-text {
+  color: #2C1500;
+  font-size: 40px;
+  font-weight: 700;
+  width: 585px;
+  padding-left: 97px;
+  margin-bottom: 32px;
+}
+.main_get_btn {
+  width: 152px;
+  height: 40px;
+  margin-left: 97px;
+  padding: 8px 29.5px;
+  margin-bottom: 88px;
+  font-weight: 800;
+}
+.main_planktu_info {
+  padding: 60px 167px;
+  display: flex;
+}
+.main_planktu_logo {
+  text-transform: uppercase;
+  color: #156963;
+  font-size: 24px;
+  font-weight: 500;
+}
+.main_planktu_house {
+  padding: 24px 0 0 0;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+}
+.main_planktu_address {
+  padding: 10px 0 0 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+.main_planktu_center-left {
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.main_planktu_peru {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.main_planktu_small-info {
+  padding: 0 0 14px 0;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.main_planktu_small-info2 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.main_planktu_center-right {
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.main_planktu_email {
+  color: #000000;
+  padding: 8px 13px;
+  font-size: 12px;
+  font-weight: 400;
+  border-color: #F2F2F2;
+  border-radius: 2px;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.main_planktu_btn {
+  color: #fff;
+  font-size: 8px;
+  font-weight: 500;
+  background-color: #156963;
+  padding: 4px 12px;
+  border-radius: 2px;
+}
